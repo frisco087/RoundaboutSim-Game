@@ -1,0 +1,33 @@
+{
+    "name": "carInputActions",
+    "maps": [
+        {
+            "name": "Car Controls",
+            "id": "dc1d8e21-6a1d-4aaa-bd83-3b76f6efe8bf",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "PassThrough",
+                    "id": "99368c2b-1abe-40bd-8c54-6b091dceb227",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b9b9caf2-77a5-4917-a66d-cee40d1b48f7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
