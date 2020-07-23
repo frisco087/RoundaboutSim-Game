@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class ShowUI : MonoBehaviour
 {
     public GameObject UiObject;
     public GameObject cube;
+    public string[] mistakes;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class ShowUI : MonoBehaviour
         {
             Debug.Log("Player");
             UiObject.SetActive(true);
+            Debug.Log(UiObject.ToString());
         }
 
         

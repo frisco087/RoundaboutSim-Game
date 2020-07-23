@@ -6,7 +6,6 @@ public class Score : MonoBehaviour
 {
     public Text scoreTxt;
     public int score;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +27,7 @@ public class Score : MonoBehaviour
             Debug.Log("incorrect");
             score = score - 1;
             scoreTxt.text = "Score : " + score;
+            
         }
 
     }
